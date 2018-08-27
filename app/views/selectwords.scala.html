@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST">
+    @helper.CSRF.formField
+   <label for="place1">Name a place: </label>
+    <input type="text" name="place1" id= "place1"><br><br>
+
+    <label for="adjective1">Name a adjective: </label>
+    <input type="text" name="adjective1" id= "adjective1"><br><br>
+
+    <label for="noun1">Name a noun: </label>
+    <select name="noun1" id="noun1">
+        <option value="house">House</option>
+        <option value="crying baby">Crying Baby</option>
+        <option value="christmas lights">Christmas Lights</option>
+        <option value="lego set">Lego set</option>
+    </select>
+    <br>
+    <br>
+    <label >Pick a noun: </label>
+    <input type="radio" name="noun2"value="muppets"checked="checked">Muppets
+    <input type="radio" name="noun2"value="a unicorn">A Unicorn
+    <input type="radio" name="noun2"value="moldy cheese">Moldy Cheese
+    <br>
+    <br>
+
+    <label >A Verb: </label>
+    <input type="radio"  name = "verb1" id="verb1-1" value="walked"><label for="verb1-1">Walked</label>
+    <input type="radio"  name = "verb1" id="verb1-2" value="danced"><label for="verb1-2">Danced</label>
+    <input type="radio"  name = "verb1" id="verb1-3" value="hopped"><label for="verb1-3">Hopped</label>
+ <br>
+ <br>
+    <label for="place2">Name a awesome place: </label>
+    <input type="text" name="place2" id= "place2"><br><br>
+
+    <input type="submit" value="Generate Story">
+
+</form>
+</body>
+</html>

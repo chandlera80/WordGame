@@ -4,6 +4,56 @@ public class Words
 {
     private String place1;
     private String adjective1;
+    private String noun1;
+    private String noun2;
+    private String VerbPastTense;
+    private String place2;
+
+
+    public String getPlace2()
+    {
+        return place2;
+    }
+
+    public void setPlace2(String place2)
+    {
+        this.place2 = place2;
+    }
+
+
+
+    public String getVerbPastTense()
+    {
+        return VerbPastTense;
+    }
+
+    public void setVerbPastTense(String verbPastTense)
+    {
+        VerbPastTense = verbPastTense;
+    }
+
+
+    public String getNoun2()
+    {
+        return noun2;
+    }
+
+    public void setNoun2(String noun2)
+    {
+        this.noun2 = noun2;
+    }
+
+
+    public String getNoun1()
+    {
+        return noun1;
+    }
+
+    public void setNoun1(String noun1)
+    {
+        this.noun1 = noun1;
+    }
+
 
     public String getPlace1()
     {
